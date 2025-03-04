@@ -17,5 +17,5 @@
 // __attribute__((at(0x86d3ea, "", CHIP_VER_BCM43430a1, FW_VER_7_45_41_46)))
 // BLPatch(calc_ptk, calc_ptk_and_rotate);
 
-__attribute__((at(HNDRTE_RECLAIM_0_END_PTR, "", CHIP_VER_BCM43430a1, FW_VER_7_45_41_46)))
-GenericPatch4(RSN_CIPHER_SUITE_CCMP, 0x87c338)
+__attribute__((at(0x87c338, "", CHIP_VER_BCM43430a1, FW_VER_7_45_41_46)))
+GenericPatch4(RSN_CIPHER_SUITE_CCMP, 0x04ac0f00)
